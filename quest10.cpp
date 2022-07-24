@@ -4,6 +4,7 @@ void findPrimeFactors(int n){
     cout<<"The prime factors of the number are:";
     if(n<=1){
         cout<<"No Prime factors";
+        exit(0);
     }
     while(n%2==0){
         cout<<2<<" ";
